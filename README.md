@@ -72,4 +72,9 @@ git commit --allow-empty -m "Empty commit to trigger CI/CD"
 git push origin <tu-rama>
 ```
 
+# PR Check Status
+
+Podemos ver en la [zona de PRs](https://github.com/gigabyte-codespace/githubactions-demo/pull) un PR que esta abierto y podemos ver como los checks
+no se han cumplido asi como los detalles de cada vulnerabilidad encontrada.
+
 Happy Coding!
