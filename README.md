@@ -77,4 +77,13 @@ git push origin <tu-rama>
 Podemos ver en la [zona de PRs](https://github.com/gigabyte-codespace/githubactions-demo/pull) un PR que esta abierto y podemos ver como los checks
 no se han cumplido asi como los detalles de cada vulnerabilidad encontrada.
 
+## Statuses check running
+![GitHub Action ejecutando analisis del codigo](statusses-running.png)
+
+## Resultado
+![Resultado de los Checks](checks_result.png)
+
+## Detalle de las vulnerabilidades encontradas
+![Detalle del Analisis CodeQL](detalle_vulnerabilidades.png)
+
 Happy Coding!
