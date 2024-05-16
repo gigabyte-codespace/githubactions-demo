@@ -10,4 +10,7 @@ const divide = (a, b) => {
     return a / b;
 };
 
-module.exports = { sum, subtract, multiply, divide };
+const sumArray = (arr) => arr.reduce((acc, num) => acc + num, 0);
+const sumObjectValues = (obj) => Object.values(obj).reduce((acc, num) => acc + num, 0);
+
+module.exports = { sum, subtract, multiply, divide, sumArray, sumObjectValues };
